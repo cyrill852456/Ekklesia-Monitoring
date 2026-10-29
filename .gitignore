@@ -1,0 +1,26 @@
+# Dependencies
+**/node_modules/
+**/vendor/
+
+# Local environment and secrets
+**/.env
+**/.env.*
+!**/.env.example
+**/auth.json
+**/storage/*.key
+
+# Generated files
+/frontend/dist/
+/backend/public/build/
+/backend/public/hot
+/backend/public/storage
+
+# Local databases and logs
+**/*.sqlite
+**/*.sqlite-*
+**/*.log
+
+# Editor and operating system files
+.idea/
+.DS_Store
+Thumbs.db
